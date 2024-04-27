@@ -10,10 +10,21 @@ b. What is a pull request?
 
 c. How do I open up a pull request?
 
-
+ 1. Create a feature branch from the main branch to work on the changes. Once the changes are committed and pushed to the feature branch, go to the forked repository on GitHub.
+ 2. Click on the compare "Compare & pull request" button on the feature branch
+ 3. Review the changes made and hit "Create pull request" button
+ 4. Add description to the PR and update the reviewers if need be.
+ 5. Submit the PR 
+ 6. once the review comments if any are addressed merge to the default main branch
 
 
 d. Give me a step by step guide on how to add someone to your repository.
+
+   1. Know the collborators GitHub username
+   2. Navigate to the Repository -> Click on Settings -> In the access section click on Collaborators- > Click on Add    people-> Type in the collaborator username -> Add name
+   3. Once the user accepts the email invitation, the user will have access to your repository
+
+
 
 e. What is the difference between git and GitHub?
 
@@ -45,4 +56,4 @@ GitHub creates the repository with a single branch. This first branch in the rep
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
 
 
-It is best to create a feature branch, complete the task and then create a pull request to the main branch and open it for comments from peer reviewers. Once approved can merge the code to the main branch.
+It is best to create a feature branch, complete the task and then create a pull request to the main branch and open it for comments from peer reviewers. Once approved can merge the code to the main branch. This would help in maintaining a  main branch which is always production ready.
